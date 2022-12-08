@@ -36,7 +36,6 @@ public class Main {
         vector[0].vectorAddition(vector[0], vector[1]);
         vector[0].vectorDifference(vector[0], vector[1]);
         vector[0].equals(vector[1]);
-
         System.out.println("");
         vector[0].information(vector[0]);
         System.out.println("");
