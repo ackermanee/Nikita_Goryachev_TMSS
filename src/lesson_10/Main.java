@@ -22,11 +22,9 @@ package lesson_10;
 Например, "Hello" -> "HHeelllloo".
 * */
 
-import javax.print.Doc;
-
 public class Main {
     public static void main(String[] args) {
-        String document = new String("1234-ABC-5678-DEF-9G0H");
+        String document = ("1234-ABC-5678-DEF-9G0H");
         System.out.println(document);
         Document.digitOutput("1234-ABC-5678-DEF-9G0H");
         Document.lowerCase("1234-ABC-5678-DEF-9G0H");
@@ -34,7 +32,7 @@ public class Main {
         Document.contain("1234-ABC-5678-DEF-9G0H");
 
 
-        String word = new String("Hello");
+        String word = ("Hello");
         System.out.println(word);
         Task_2.copy(word);
     }
